@@ -13,8 +13,8 @@ export const singleNumber = (nums: number[]): number => {
         }
     }
 
-    let result;
-    set.forEach((n) => { result = n });
+    let result: number;
+    set.forEach((n: number) => { result = n });
 
     return result;
 };
