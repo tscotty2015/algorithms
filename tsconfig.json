@@ -1,0 +1,13 @@
+{ "compilerOptions": 
+    { 
+        "allowSyntheticDefaultImports": true, 
+        "moduleResolution": "node", 
+        "target": "es2019", 
+        "sourceMap": true, 
+        "outDir": "dist", 
+        "esModuleInterop": true, 
+        "types": [ "node", "mocha" ] 
+    }, 
+    "exclude": [ "node_modules", "Java", "JavaScript", "C#" ], 
+    "include": [ "src/**/*.ts" ] 
+}
