@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha -r ts-node/register src/**/*.spec.ts",
-    "test:spec": "mocha -r ts-node/register src/single-number/single-number.spec.ts"
+    "test:spec": "mocha -r ts-node/register src/hello-world/hello-world.spec.ts"
   },
   "keywords": [],
   "author": "",
